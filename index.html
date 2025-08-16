@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- Basic SEO Metadata -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Learn the basics of HTML5 structure, accessibility, and SEO with this beginner-friendly example page.">
+    <meta name="keywords" content="HTML5, semantic HTML, accessibility, SEO, web development basics">
+    <meta name="author" content="Your Name">
+    <title>HTML5 Semantic Structure & Accessibility Example</title>
+</head>
+<body>
+    <!-- Site Header -->
+    <header>
+        <h1>Welcome to HTML5 Best Practices</h1>
+        <p>Learn how to build accessible, SEO-friendly websites with semantic HTML.</p>
+    </header>
+
+    <!-- Navigation Landmark -->
+    <nav aria-label="Main navigation">
+        <ul>
+            <li><a href="#about" title="About this page">About</a></li>
+            <li><a href="#guidelines" title="HTML5 Guidelines">Guidelines</a></li>
+            <li><a href="#contact" title="Contact Information">Contact</a></li>
+        </ul>
+    </nav>
+
+    <!-- Main Content Area -->
+    <main>
+        <!-- About Section -->
+        <section id="about" aria-labelledby="about-heading">
+            <h2 id="about-heading">About This Page</h2>
+            <p>This page demonstrates the correct use of HTML5 semantic elements to create a clear, accessible, and SEO-friendly structure.</p>
+        </section>
+
+        <!-- Guidelines Section -->
+        <section id="guidelines" aria-labelledby="guidelines-heading">
+            <h2 id="guidelines-heading">HTML5 Guidelines</h2>
+
+            <article aria-labelledby="semantic-html">
+                <h3 id="semantic-html">Use Semantic HTML Tags</h3>
+                <p>Tags such as <code>&lt;header&gt;</code>, <code>&lt;main&gt;</code>, <code>&lt;section&gt;</code>, and <code>&lt;footer&gt;</code> provide meaning to your content, helping both users and search engines understand it better.</p>
+            </article>
+
+            <article aria-labelledby="accessibility">
+                <h3 id="accessibility">Prioritize Accessibility</h3>
+                <p>Use ARIA labels, descriptive link text, and proper heading order to make your content easier for screen readers to navigate.</p>
+            </article>
+
+            <article aria-labelledby="seo-basics">
+                <h3 id="seo-basics">Basic SEO Practices</h3>
+                <p>Include a meta description, use meaningful headings, and write descriptive, keyword-rich content to improve discoverability.</p>
+            </article>
+        </section>
+    </main>
+
+    <!-- Contact Section -->
+    <aside aria-labelledby="contact-heading">
+        <h2 id="contact-heading">Contact</h2>
+        <address>
+            <p>Email: <a href="mailto:otienokelvin@students.uonbi.ac.ke">otienokelvin@students.uonbi.ac.ke</a></p>
+            <p>Phone: <a href="tel:+254743745597">+254743735597</a></p>
+        </address>
+    </aside>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2025 HTML5 Learning Hub. All rights reserved.</p>
+    </footer>
+</body>
+</html>
